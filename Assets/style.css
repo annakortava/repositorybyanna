@@ -1,9 +1,9 @@
-<style>body{
+<style>body {
     background: hsl(40, 52%, 84%)
     currentColor rgb(27, 25, 25)
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 880px;
-    mergin: 0 auto
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Space Mono', monospace;
     }
     #first-par {color: rgb(105, 105, 105)}
     #second-par {color:hsl(40, 54%, 44%)}
