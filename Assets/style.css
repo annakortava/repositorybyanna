@@ -1,0 +1,12 @@
+<style>body{
+    background: white
+    currentColor rgb(27, 25, 25)
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 880px;
+    mergin: 0 auto
+    }
+    #first-par {color: rgb(77, 83, 88);}
+    #second-par {color:hsl(40, 54%, 44%)}
+    .text-tan {color: tan;}
+    .text-musturd {color:hsl(40, 54%, 44%)}
+</style>
