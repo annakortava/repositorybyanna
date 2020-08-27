@@ -1,12 +1,10 @@
-<style>body {
-    background: hsl(40, 52%, 84%)
-    currentColor rgb(27, 25, 25)
+body {
+    background: hsl(0, 0%, 89%);
     max-width: 800px;
     margin: 0 auto;
     font-family: 'Space Mono', monospace;
     }
     #first-par {color: rgb(105, 105, 105)}
-    #second-par {color:hsl(40, 54%, 44%)}
-    .text-tan {color: tan;}
-    .text-musturd {color:hsl(40, 54%, 44%)}
-</style>
+    #second-par {color:hsl(0, 56%, 30%)}
+    .text-eggplant {color: hsl(327, 40%, 22%)}
+    .text-red {color:hsl(0, 56%, 30%)}
