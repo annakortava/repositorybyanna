@@ -13,11 +13,13 @@
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-}body {
+}
+body {
     background: whitesmoke;
     color: black;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 1000px;
+    margin-top: 3000px;
     font-family: 'GT Zirkon Trial Lt';
     font-weight: 300;
     font-style: normal;
