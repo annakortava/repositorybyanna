@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'GT Zirkon Trial Rg';
+    src: url("assets/GTZirkonTrial-Rg.woff2") format('woff2'),
+        url("assets/GTZirkonTrial-Rg.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GT Zirkon Trial Lt';
+    src: url("assets/GTZirkonTrial-Lt.woff2") format('woff2'),
+        url("assets/GTZirkonTrial-Lt.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}body {
+    background: whitesmoke;
+    color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    }
+    #first-par {color: rgb(105, 105, 105)}
+    #second-par {color: rgb(119, 34, 34)}
+    .text-eggplant {color: rgb(79, 34, 58)}
+    .text-red {color: rgb(119, 34, 34)}

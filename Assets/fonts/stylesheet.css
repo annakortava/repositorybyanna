@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'GT Zirkon Trial Rg';
+    src: url('GTZirkonTrial-Rg.woff2') format('woff2'),
+        url('GTZirkonTrial-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Zirkon Trial Lt';
+    src: url('GTZirkonTrial-Lt.woff2') format('woff2'),
+        url('GTZirkonTrial-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
