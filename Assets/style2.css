@@ -16,7 +16,7 @@
 }
 body {
     background: snow;
-    color: black;
+    color: rgba(5, 5, 5, 0.815);
     max-width: 1400px;
     font-family: 'GT Zirkon Trial Lt';
     font-weight: 300;
