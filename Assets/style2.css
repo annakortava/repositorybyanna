@@ -15,19 +15,25 @@
     font-display: swap;
 }
 body {
-    background: whitesmoke;
+    background: seashell;
     color: black;
-    max-width: 1200px;
+    max-width: 1400px;
     font-family: 'GT Zirkon Trial Lt';
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-    font-size: 20px;
+    font-size: 50px;
     line-height: 1.5;
     letter-spacing: 0.3px;
-    margin-top: 100px;
-    }
-    #first-par {color: rgb(105, 105, 105)}
-    #second-par {color: rgb(119, 34, 34)}
-    .text-eggplant {color: rgb(79, 34, 58)}
-    .text-red {color: rgb(119, 34, 34)}
+    margin-left: 50px;
+ }
+h1 {
+    margin-top: 200px;
+}
+button {
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+}
+.button-float {float: right;  margin-top: 40px; margin-right: 20px;}
