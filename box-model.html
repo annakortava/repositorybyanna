@@ -7,9 +7,11 @@
     <style>
         .parent { 
           display: grid;
-          grid-template-rows: 220px 220px 220px;
-          grid-template-columns: 440px 440px 440px;
+          grid-template-rows: repeat(3, 220px);
+          grid-template-columns: repeat(3, 1fr);
           grid-gap: 2vw;
+          margin-top: 30px;
+          background-color: whitesmoke;
           }
 
         .child {
@@ -17,6 +19,7 @@
           padding: .5em;
           background: rgb(211, 204, 102);
           text-align: center;
+          outline-style: groove;
         }
         </style>
 </head>
