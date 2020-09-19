@@ -1,0 +1,46 @@
+a,
+a:visited {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list > li + li {
+  margin-left: 20px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 20;
+    width: 95%;
+    padding: 20px;
+    margin: 0px;
+    background-color: snow;
+    font-size: 20px;
+    font-family:'GT Zirkon Trial Lt';
+
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 20px;
+    background-color: snow;
+}
