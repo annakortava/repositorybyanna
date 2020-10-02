@@ -24,7 +24,7 @@ header {
     position: fixed;
     left: 0;
     top: 20;
-    width: 95%;
+    width: 100%;
     padding: 20px;
     margin: 0px;
     background-color: snow;
@@ -42,5 +42,19 @@ header {
     top: 0;
     height: 100%;
     padding: 0 20px;
-    background-color: snow;
+}
+
+.gradient {
+  background: linear-gradient(320deg, #ffffff, #fea5ff, #b86fff);
+  background-size: 600% 600%;
+}
+
+.gradient:hover {
+  animation: AnimationName 3s ease;
+}
+
+@keyframes AnimationName {
+  0%{background-position:31% 0%}
+  50%{background-position:70% 100%}
+  100%{background-position:31% 0%}
 }
