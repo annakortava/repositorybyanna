@@ -31,7 +31,7 @@
 
 .image {
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 .div1 { grid-area: 6 / 6 / 9 / 9; }
