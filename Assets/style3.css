@@ -1,9 +1,3 @@
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'GT Zirkon Trial Rg';
     src: url("fonts/GTZirkonTrial-Rg.woff2") format('woff2'),
@@ -12,7 +6,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'GT Zirkon Trial Lt';
     src: url("fonts/GTZirkonTrial-Lt.woff2") format('woff2'),
@@ -26,25 +19,19 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(25, 1fr);
-    grid-column-gap: 0.8rem;
-    grid-row-gap: 0.6rem;
+    grid-column-gap: 8px;
+    grid-row-gap: 6px;
     background-color: snow;
     outline: black;
-    height: auto;
+    height: 4000px;
     width: 100vw;
+    font-size: 30px;
     text-align: left;
-    font-family: 'GT Zirkon Trial Rg';
 }
 
 .image {
     width: 100%;
     height: 100%;
-    text-align: center;
-    overflow: hidden;
-}
-
-.nd {
-    margin-left: 1.5rem;
 }
 
 .div1 { grid-area: 6 / 6 / 9 / 9; }
@@ -52,5 +39,5 @@
 .div3 { grid-area: 10 / 6 / 13 / 9; }
 .div4 { grid-area: 12 / 1 / 15 / 4; }
 .div5 { grid-area: 14 / 6 / 17 / 9; }
-.div7 { grid-area: 2 / 1 / 3 / 9 ; font-size: 12rem}
-.div8 { grid-area: 3 / 1 / 4 / 6 ; font-size: 8rem}
+.div7 { grid-area: 2 / 1 / 3 / 9 ; font-size: 120px; padding: 20px;}
+.div8 { grid-area: 3 / 1 / 4 / 6 ; font-size: 80px; padding: 20px;}
