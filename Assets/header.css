@@ -47,10 +47,11 @@ header {
 .gradient {
   background: linear-gradient(320deg, #ffffff, #fea5ff, #b86fff);
   background-size: 600% 600%;
+  
 }
 
 .gradient:hover {
-  animation: AnimationName 3s ease;
+  animation: AnimationName 3s infinite ease-in-out;
 }
 
 @keyframes AnimationName {
