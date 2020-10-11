@@ -132,10 +132,6 @@ html {
     margin-right: 1rem;
 }
 
-a {
-    color: white;
-}
-
 @media (max-width: 600px) {
     .parent {
         grid-template-columns: repeat(4, calc(100vw / 4));
