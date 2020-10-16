@@ -65,11 +65,11 @@ html {
 .div5 { grid-area: 14 / 6 / 17 / 9; }
 .div7 { grid-area: 2 / 1 / 3 / 9 ; font-size: 12rem}
 .div8 { grid-area: 3 / 1 / 4 / 6 ; font-size: 8rem}
-.div11 { grid-area: 7 / 5 / 8 / 7; font-size: 6rem; padding-top: 5rem;}
+/* .div11 { grid-area: 7 / 5 / 8 / 7; font-size: 6rem; padding-top: 5rem;}
 .div12 { grid-area: 9 / 2 / 10 / 5; font-size: 6rem; padding-top: 5rem;}
 .div13 { grid-area: 11 / 5 / 12/ 7; font-size: 6rem; padding-top: 5rem;}
 .div14 { grid-area: 13 / 3 / 14 / 5; font-size: 6rem; padding-top: 5rem;}
-.div15 { grid-area: 15 / 5 / 16 / 8; font-size: 6rem; padding-top: 5rem;}
+.div15 { grid-area: 15 / 5 / 16 / 8; font-size: 6rem; padding-top: 5rem;} */
 .div16 { grid-area: 20 / 1 / 21 / 9; }
 .div17 { grid-area: 20 / 2 / 21 / 5; }
 .div18 { grid-area: 20 / 6 / 21 / 7; }
@@ -80,7 +80,7 @@ html {
     background-size: cover;
 }
 
-  .text-right {
+.text-right {
     margin: 0 auto;
     position: relative;
     left: 50px;
@@ -88,12 +88,13 @@ html {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-  }
-  .text-right:hover {
-    left: -11rem;
-  }
+}
 
-  .text-left {
+.text-right:hover {
+    left: -20rem;
+}
+
+.text-left {
     margin: 0 auto;
     position: relative;
     right: 50px;
@@ -101,35 +102,69 @@ html {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-  }
-  .text-left:hover {
-    right: -11rem;
-  }
+}
 
-  .footer {
+.text-left:hover {
+    right: -20rem;
+}
+
+.footer {
       background-color: #342C2C;
-  }
-  .h1 {
+}
+
+.h1 {
     font-size: 3rem;
     padding-top: 4rem;
     text-align: left;
     color: white;
     font-family: 'GT Zirkon Trial Lt';
-  }
+}
 
-  .p1 {
+.p1 {
     font-size: 2rem;
     padding-top: 4rem;
     text-align: left;
     color: white;
     font-family: 'GT Zirkon Trial Lt';
-  }
+}
 
-  .p1 {
+.p1 {
     display: inline;
     display: inline-block;
     float: left;
     margin-right: 1rem;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+}
+
+.container p {
+    color: black;
+    position: relative;
+    font-size: 6rem; 
+    padding-top: 20rem;
+    left: -10rem;
+}
+
+.container1 {
+    position: relative;
+}
+
+.container1 img {
+    position: absolute;
+}
+
+.container1 p{
+    color: black;
+    position: absolute;
+    font-size: 6rem; 
+    padding-top: 20rem;
+    right: -10rem;
 }
 
 @media (max-width: 600px) {

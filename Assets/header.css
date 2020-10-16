@@ -30,7 +30,7 @@ header {
   background-color: snow;
   font-size: 20px;
   font-family:'GT Zirkon Trial Lt';
-
+  z-index: 1; 
 }
 
 .home {
